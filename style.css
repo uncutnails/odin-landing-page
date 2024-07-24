@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    font-family: Roboto, sans-serif;}
+.header {
+    background:#1F2937;
+    margin: 0;
+    padding: 0 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;}
+.logo {color: #F9FAF8; font-size: 24px; font-weight: bold;}
+ul {list-style: none; display: flex; gap: 24px; } a{text-decoration: none; color: #E5E7EB; font-size: 18px;}
+
+.section-1 {
+    background: #1F2937;
+    height: 500px;
+    padding: 0 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left-side {
+width: 450px;}
+
+.sect-1 {font-size: 48px; color:#F9FAF8; font-weight: bolder; margin: 0;}
+.subtext-1 {font-size: 18px; color: #E5E7EB; padding: 0.5 0px}
+button {background: #3882F6; color: white; font-size: 18px;
+    border: none; font-weight: bold;
+    border-radius: 8px;
+    padding: 8px 30px; }
+
+.placeholder { 
+background: gray;
+padding: 160px;}
+
+.section-2 {height: 500px;
+display: flex;
+flex-flow: column; 
+align-items: center;
+justify-content: center;
+}
+.h2 {font-size: 36px; font-weight: bolder;}
+.container {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+gap: 40px;
+padding-bottom: 60px;
+}
+.feature {
+display: flex;
+gap: 10px;
+flex-flow: column wrap;
+align-items: center;
+}
+.card {
+border: 4px solid #3882F6;
+width: 250px;
+height: 250px;
+}
+span {
+font-size: 18px;
+width: 200px;
+height: 40px;
+text-align: center;
+}
+
+.section-3 {
+height: 500px;
+background: #E5E7EB;
+display: flex;
+align-items: center;
+justify-content: center;}
+
+.container-1 {
+box-sizing: border-box;
+width: 800px;
+}
+q {color: #1F2937; font-size: 36px;} .Thor {font-size: 25px; display: flex; justify-content: flex-end;}
+
+.section-4 {
+height: 500px;
+display: flex;
+}
+
+.container-2 {
+background: #3882F6;
+width: 1300px;
+padding: 90px;
+margin: auto;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+h3 {
+color: #F9FAF8;
+margin: 0;
+font-size: 24px;
+}
+.recommend {
+color: #F9FAF8;
+font-size: 18px;
+margin: 0;
+}
+.sign-up {
+border: 1px solid #F9FAF8; }
+
+.footer {
+background:#1F2937;
+color: #F9FAF8;
+font-size: 18px;
+margin: 0;
+height: 80px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
